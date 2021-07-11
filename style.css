@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0a0808;
+}
+
+#mainContainer{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+    margin-top: 30vh;
+    box-shadow: 7px 7px 10px #4a5cd8;
+    height: 50vh;
+    justify-content: center;
+}
+
+#battery{
+    border: 6px solid white;
+    height: 20vh;
+    width: 50vh;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#batteryInnerPart{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(#40f557, #ff4242);
+}
+
+#batteryCharging{
+    position: absolute;
+    top: 20%;
+    right: 48%;
+}
+
+#batteryCharging i{
+    color: white;
+    font-size: 33px;
+    margin-bottom: 2px;
+}
+
+#batteryPercentage{
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 80%;
+    right: 44%;
+}
+
+#batteryPoint{
+    border: 6px solid white;
+    margin: 3px;
+    height: 5vh;
+    border-radius: 4px;
+}
